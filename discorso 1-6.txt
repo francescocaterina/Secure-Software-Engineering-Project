@@ -1,0 +1,88 @@
+SLIDE 1
+Il nostro progetto si basa su un sistema di hospital management.
+
+
+
+SLIDE 2
+Per iniziare abbiamo individuato il target e abbiamo effettuato un primo controllo tramite l'ispeziona della pagina andando alla ricerca di vulnerabilità e violazioni della privacy.
+
+
+
+SLIDE 3
+Dopo una fase di ispezione della pagina iniziale abbiamo utilizzato diversi tool per la ricerca di vulnerabilità tra cui WhatWeb e Searchspoit che ci hanno fatto trovare i plugin con le versioni utilizzate nel sito.
+
+
+
+SLIDE 4
+La ricognizione attiva attraverso tool come Nmap, Dirb, Nikto e Gobuster ci hanno mostrato come erano presenti file privati come i .git o i file HEAD, oltre che la presenza di directory non protette e mancanza di header di sicurezza HTTP.
+
+
+
+SLIDE 5
+Abbiamo poi effettuato la scansione del sito con ZAP e SQLMap. Queste ci hanno mostrato come il sito era vulnerabile agli attacchi SQL injection e XSS in file importanti come il doctor_panel e il contact.php che gestiscono il database dell'ospedale.
+
+
+
+
+SLIDE 6
+Abbiamo inoltre fatto una scansione con Fortify che ci ha confermato che il sito era vulnerabile agli attacchi di XSS, SQL injection oltre ad avere delle librerie che ora deprecate o di vecchie versioni. Nello specifico Fortify ci ha mostrato in quali specifiche parti del codice erano presenti delle vulnerabilità da risolvere.
+
+
+
+
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+SLIDE 1
+Our project is based on a hospital management system.
+
+
+
+SLIDE 2
+we identified the target and performed an initial check by inspecting the page, looking for vulnerabilities and privacy violations.
+
+
+
+SLIDE 3
+After inspecting the home page, we used vulnerability scanning tools, including WhatWeb and Searchspoit, which found the plugin versions used on the site.
+
+
+
+
+SLIDE 4
+Active reconnaissance using tools like Nmap, Dirb, Nikto, and Gobuster revealed the presence of private files such as .git or HEAD files, as well as the presence of unprotected directories and the lack of HTTP security headers.
+
+
+
+SLIDE 5
+We, also, scanned the site with ZAP and SQLMap. These showed us that the site was vulnerable to SQL injection and XSS attacks in important files such as the doctor_panel.php and contact.php files that manage the hospital database.
+
+
+
+
+SLIDE 6
+We also scan with Fortify, which confirmed that the site was vulnerable to XSS and SQL injection attacks, as well as libraries that are now deprecated or outdated. Fortify showed us which specific parts of the code contained vulnerabilities that needed to be fixed.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

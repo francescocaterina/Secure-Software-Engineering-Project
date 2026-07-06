@@ -1,0 +1,91 @@
+┌──(francesco㉿kali)-[~]
+└─$ gobuster dir \
+-u http://192.168.56.1/Hospital-Management-System/ \
+-w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt \
+-x php
+===============================================================
+Gobuster v3.8
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+===============================================================
+[+] Url:                     http://192.168.56.1/Hospital-Management-System/
+[+] Method:                  GET
+[+] Threads:                 10
+[+] Wordlist:                /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt
+[+] Negative Status codes:   404
+[+] User Agent:              gobuster/3.8
+[+] Extensions:              php
+[+] Timeout:                 10s
+===============================================================
+Starting gobuster in directory enumeration mode
+===============================================================
+/# license, visit http://creativecommons.org/licenses/by-sa/3.0/.php (Status: 403) [Size: 301]
+/# license, visit http://creativecommons.org/licenses/by-sa/3.0/ (Status: 403) [Size: 301]
+/images               (Status: 301) [Size: 364] [--> http://192.168.56.1/Hospital-Management-System/images/]
+/index.php            (Status: 200) [Size: 12148]
+/img                  (Status: 301) [Size: 361] [--> http://192.168.56.1/Hospital-Management-System/img/]
+/contact.php          (Status: 200) [Size: 0]
+/search.php           (Status: 200) [Size: 0]
+/header.php           (Status: 200) [Size: 108]
+/Images               (Status: 301) [Size: 364] [--> http://192.168.56.1/Hospital-Management-System/Images/]
+/assets               (Status: 301) [Size: 364] [--> http://192.168.56.1/Hospital-Management-System/assets/]
+/plugins              (Status: 301) [Size: 365] [--> http://192.168.56.1/Hospital-Management-System/plugins/]
+/Search.php           (Status: 200) [Size: 0]
+/css                  (Status: 301) [Size: 361] [--> http://192.168.56.1/Hospital-Management-System/css/]
+/Contact.php          (Status: 200) [Size: 0]
+/Index.php            (Status: 200) [Size: 12148]
+/index1.php           (Status: 200) [Size: 5740]
+/js                   (Status: 301) [Size: 360] [--> http://192.168.56.1/Hospital-Management-System/js/]
+/include              (Status: 301) [Size: 365] [--> http://192.168.56.1/Hospital-Management-System/include/]
+/logout.php           (Status: 200) [Size: 1588]
+/vendor               (Status: 301) [Size: 364] [--> http://192.168.56.1/Hospital-Management-System/vendor/]
+/master               (Status: 301) [Size: 364] [--> http://192.168.56.1/Hospital-Management-System/master/]
+/error.php            (Status: 200) [Size: 1598]
+/color                (Status: 301) [Size: 363] [--> http://192.168.56.1/Hospital-Management-System/color/]
+/fonts                (Status: 301) [Size: 363] [--> http://192.168.56.1/Hospital-Management-System/fonts/]
+/IMAGES               (Status: 301) [Size: 364] [--> http://192.168.56.1/Hospital-Management-System/IMAGES/]
+/IMG                  (Status: 301) [Size: 361] [--> http://192.168.56.1/Hospital-Management-System/IMG/]
+/Header.php           (Status: 200) [Size: 108]
+/Assets               (Status: 301) [Size: 364] [--> http://192.168.56.1/Hospital-Management-System/Assets/]
+/INDEX.php            (Status: 200) [Size: 12148]
+/Fonts                (Status: 301) [Size: 363] [--> http://192.168.56.1/Hospital-Management-System/Fonts/]
+/*checkout*           (Status: 403) [Size: 301]
+/*checkout*.php       (Status: 403) [Size: 301]
+/CSS                  (Status: 301) [Size: 361] [--> http://192.168.56.1/Hospital-Management-System/CSS/]
+/Img                  (Status: 301) [Size: 361] [--> http://192.168.56.1/Hospital-Management-System/Img/]
+/JS                   (Status: 301) [Size: 360] [--> http://192.168.56.1/Hospital-Management-System/JS/]
+/Plugins              (Status: 301) [Size: 365] [--> http://192.168.56.1/Hospital-Management-System/Plugins/]
+/Logout.php           (Status: 200) [Size: 1588]
+/*docroot*.php        (Status: 403) [Size: 301]
+/*docroot*            (Status: 403) [Size: 301]
+/*                    (Status: 403) [Size: 301]
+/*.php                (Status: 403) [Size: 301]
+/SEARCH.php           (Status: 200) [Size: 0]
+/CONTACT.php          (Status: 200) [Size: 0]
+/Color                (Status: 301) [Size: 363] [--> http://192.168.56.1/Hospital-Management-System/Color/]
+/Error.php            (Status: 200) [Size: 1598]
+/Master               (Status: 301) [Size: 364] [--> http://192.168.56.1/Hospital-Management-System/Master/]
+/Include              (Status: 301) [Size: 365] [--> http://192.168.56.1/Hospital-Management-System/Include/]
+/**http%3a            (Status: 403) [Size: 301]
+/**http%3a.php        (Status: 403) [Size: 301]
+/*http%3A             (Status: 403) [Size: 301]
+/*http%3A.php         (Status: 403) [Size: 301]
+/MASTER               (Status: 301) [Size: 364] [--> http://192.168.56.1/Hospital-Management-System/MASTER/]
+/**http%3A            (Status: 403) [Size: 301]
+/**http%3A.php        (Status: 403) [Size: 301]
+/**http%3A%2F%2Fwww.php (Status: 403) [Size: 301]
+/**http%3A%2F%2Fwww   (Status: 403) [Size: 301]
+/func.php             (Status: 200) [Size: 0]
+/devinmoore*          (Status: 403) [Size: 301]
+/devinmoore*.php      (Status: 403) [Size: 301]
+/HEADER.php           (Status: 200) [Size: 108]
+/200109*.php          (Status: 403) [Size: 301]
+/200109*              (Status: 403) [Size: 301]
+/*sa_.php             (Status: 403) [Size: 301]
+/*dc_                 (Status: 403) [Size: 301]
+/*sa_                 (Status: 403) [Size: 301]
+/*dc_.php             (Status: 403) [Size: 301]
+Progress: 441116 / 441116 (100.00%)
+===============================================================
+Finished
+===============================================================
+                                                                
